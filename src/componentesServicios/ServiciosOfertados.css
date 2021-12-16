@@ -1,0 +1,33 @@
+.card-servicio{
+  width: 450px;
+  margin: 15px;
+  border: 1px dotted red;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.card-descripcion{
+  text-align:center;
+  
+}
+.foto-perfil{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+.foto-perfil > img{
+  width:150px;
+  height: 150px;
+  border-radius: 50%; 
+}
+.profesion{
+    text-decoration:underline;
+}
+.seccion-servicios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

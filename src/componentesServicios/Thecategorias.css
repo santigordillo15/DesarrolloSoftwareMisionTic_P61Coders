@@ -1,0 +1,44 @@
+.card-user{
+  width: 200px;
+  margin: 5px;
+  border: 1px dotted red;
+  padding: 10px
+  
+}
+.card-name{
+  text-align:center;
+  
+}
+.card-foto{
+  text-align:center;
+  margin-bottom: 5px;  
+}
+.card-foto>a>img{
+  
+  
+    border: 5px solid #ccc;
+    float: center;
+    margin-top: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -ms-transition: margin 0.5s ease-out;
+    transition: margin 0.5s ease-out;
+    }
+.card-foto img:hover {
+    margin-top: 2px;
+    }
+  
+
+.card-foto>a>img{
+  width:180px;
+  height: 180px;
+  border-radius: 50%; 
+  
+}
+.seccion-categorias{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
